@@ -44,6 +44,10 @@ public class UserDetailsServiceImplTest {
 		MockitoAnnotations.initMocks(this);
 	}
 
+	/**
+	 * @author Sandeep Dhamal
+	 * @GetAllUser Data and test controller and service layer by moking userRepository
+	 */
 	@Test
 	public void getAllUserTest() {
 		User user;
